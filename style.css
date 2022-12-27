@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:ital,wght@0,400;1,700&display=swap');
+h1,h2,h3,h4,h5,h6,{
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #fff;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* Header */
+
+.active-header{
+	background: #31344e;
+	padding: 13px 0;
+	border-bottom: 1px solid #fff;
+
+}
+.active-logo{
+
+}
+.active-menu{}
+.active-menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.active-menu ul li{
+
+}
+.active-menu ul li a{
+	padding:0 22px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #cbccd3;
+	text-transform: capitalize;
+
+}
+.active-menu ul li a:hover{
+	color: #ED4C67;
+
+}
+.menu-icon{
+	display: none;
+
+}
+.mobile-menu{
+	background: #fff;
+	box-shadow: 3px 0 2px #dcdde1;
+	width: 250px;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: -250px;
+	padding: 10px 25px;
+
+}
+.menu-close{
+	padding: 10px 0;
+	text-align: right;
+}
+.menu-close i{
+	font-size: 25px;
+}
+.search-bar{
+	width: 100%;
+	border: 1px solid #dcdde1;
+	position: relative;
+
+}
+.search-bar input{
+	display: block;
+	width: 100%;
+	border: none;
+	background: transparent;
+
+}
+.search-bar button{
+	background: transparent;
+	border: none;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+}
+.mobil-nav{
+	padding: 20px 0;
+}
+.mobil-nav ul{
+	margin: 0;
+	padding: 0;
+}
+.mobil-nav ul li{}
+.mobil-nav ul li a{
+	text-transform: capitalize;
+	display: block;
+	padding: 8px 0;
+	color: #40739e;
+}
+/* Banner*/
+
+.active-banner{
+	background: url('img/banner.png');
+	background-size: cover;
+	background-position: center;
+	padding: 130px 0 90px;
+}
+.active-content{
+	text-align: center;
+	
+
+
+
+}
+.active-content h1{
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 65px;
+	padding: 200px 0 0px;
+	
+
+}
+.active-content p{
+	color: #dcdce1;
+	font-size: 22px;
+	padding: 20px 20px 70px;
+}
+.active-content button{
+	border: 1px solid #2d304a;
+	background: #e84545;
+	color: #fdf3f3;
+	border-radius: 4px;
+	padding: 8px;
+	margin-bottom: 195px;
+}
+.active-icon{
+	margin-top: 120px;
+	justify-content: space-between;
+}
+.active-item-pain img{
+	margin: auto;
+
+}
+.active-item-text h4{
+	text-align: center;
+	margin-top: 35px;
+	color: #2d3033;
+}
+.active-item-text p{
+	padding: 22px 50px 0;
+	text-align: center;
+	color: #6c7279;
+
+}
+.active-item-pc img{
+	margin: auto;
+}
+.active-item-light img{
+	margin: auto;
+}
+.active-icon-item{
+	margin-top: 75px;
+	margin-bottom: 110px;
+}
+
+
+.work-thiem{
+	padding: 0 20px 0;
+	margin-bottom: 100px;
+}
+.theim-1{
+	margin-top: 15px;
+	position: relative;
+}
+
+
+.tmiem-hover{
+	background: rgba(212,67,69,0.9);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: 0.6s;
+
+}
+.tmiem-hover:hover{
+	opacity: 1;
+}
+.tmiem-hover h5{
+	text-transform: uppercase;
+	color: #fcf3f3;
+	border: 1px solid #635252;
+
+}
+/* work item end*/
+
+
+.active-employer{
+		padding: 80px 150px 100px;
+}
+.employer{}
+.employer img{
+	padding: 0 0 30px;
+
+}
+.employer h3{
+	color: #2d3033;
+	padding: 6px 0 10px;
+	font-size: 25px;
+}
+.employer h6{
+	margin-bottom: 33px;
+	color: #ec2929;
+	font-size: 15px;
+}
+.employer p{
+	color: #6c747d;
+	font-size: 14px;
+}
+
+.employer-icon a i{
+	color: #c6cacc;
+	margin-top: 10px;
+}
+.employer-icon i{
+	border: 1px solid #e7ebed;
+
+	padding: 10px
+
+}
+.employer-icon i:hover{
+	background: #00a8ff;
+}
+/* employ end*/
+
+
+.section-2{
+	width:100%;
+	background: #53354a;
+
+}
+.section-2 button{
+	margin-bottom: 100px;
+
+}
+.section1{
+	margin: 50px;
+	margin-left: 0;
+	
+}
+.carousel-item h1{
+	padding: 90px 330px 0 70px;
+	color: #eae6e9;
+	font-family: 'Cardo', serif;
+	font-size: 36px;
+
+}
+.carousel-item p{
+	padding: 25px 50px 0 70px;
+	margin-bottom: 137px;
+	color: #eae6e9;
+	font-size: 15px;
+}

@@ -1,0 +1,47 @@
+@media(max-width: 991px){
+	.active-menu{
+		display: none;
+	}
+	.menu-icon{
+		display: block;
+		text-align: right;
+
+	}
+	.menu-icon i{
+		font-size: 25px;
+		color: #e3dfd5;
+	}
+	.work-thiem{
+		padding: 0 50px 0;
+	}
+	.active-employer{
+		padding: 0 200px 0;
+
+	}
+	.employer-icon i{
+		margin-bottom: 22px;
+	}
+	
+
+}
+@media(max-width: 776px){
+	.work-thiem{
+		padding: 70px;
+	}
+	.active-employer{
+		padding: 0 125px 0;
+	}
+}
+@media(max-width: 575px){
+	.active-content h1{
+		font-size: 50px;
+	}
+	.active-content p{
+		font-size: 15px;
+	}
+	
+	
+	.active-employer{
+		padding: 0 110px 0;
+	}
+}
